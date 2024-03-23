@@ -9,7 +9,7 @@ export default (length: number, keys: string[]): string => {
 
 // Generate An ID
 function generateAnID (length: number): string {
-  let string = ''
+  let string: string = ''
 
   for (let i = 0; i < length; i++) string += letters[getRandom(0, letters.length - 1)]
 
