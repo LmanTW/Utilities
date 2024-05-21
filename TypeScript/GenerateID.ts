@@ -18,4 +18,4 @@ function generateAnID (length: number): string {
 
 import getRandom from './GetRandom'
 
-const letters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789'
+const letters: string = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789'
